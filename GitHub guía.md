@@ -1,3 +1,15 @@
+# GitHub Guía
+
+## Recursos de aprendizaje recomendados
+
+### Oh my Git!
+Juego para practicar el uso de comandos.
+https://ohmygit.org
+### Learn Git Branching
+Juego que cuenta con idioma español para practicar el uso de comandos y visualizar el uso de ramas.
+https://learngitbranching.js.org
+Para cambiar el idioma, una vez comenzado un juego, click en el icono de globo terráqueo en la esquina inferior derecha.
+
 ### 1.Crear cuenta en GitHub
 https://github.com/
 ### 2. Descargar e instalar Git
@@ -75,15 +87,7 @@ Cada commit se debería centrar en la adición de cambios relacionados con una s
 `git commit -m "Añadir nuevo método para imprimir por pantalla"
 
 
-## Recursos de aprendizaje recomendados
 
-### Oh my Git!
-Juego para practicar el uso de comandos.
-https://ohmygit.org
-### Learn Git Branching
-Juego que cuenta con idioma español para practicar el uso de comandos y visualizar el uso de ramas.
-https://learngitbranching.js.org
-Para cambiar el idioma, una vez comenzado un juego, click en el icono de globo terráqueo en la esquina inferior derecha.
 ## Software recomendado
 
 ### GitKraken
