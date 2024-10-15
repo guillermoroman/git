@@ -20,9 +20,11 @@ https://github.com/
 1. Descargar [git](https://git-scm.com/):
 2. Sigue la [guía de instalación de Git](https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Instalaci%C3%B3n-de-Git).
 ### 3. Setup username y email
+```bash
+git config --global user.name "Your name here"
 ```
-$ git config --global user.name "Your name here"
-$ git config --global user.email "your_email@example.com"
+```bash
+git config --global user.email "your_email@example.com"
 ```
 Comprobar que están bien configurados ejecutando los mismos comandos sin los parámetros.
 ### 4. Personalización (opcional)
