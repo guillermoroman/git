@@ -28,25 +28,27 @@ git config --global user.email "your_email@example.com"
 ```
 Comprobar que están bien configurados ejecutando los mismos comandos sin los parámetros.
 ### 4. Personalización (opcional)
+```bash
+git config --global color.ui true
 ```
-$ git config --global color.ui true
-$ git config --global core.editor "code --wait"
+```bash
+git config --global core.editor "code --wait"
 ```
 La segunda instrucción establece VSCode como nuestro editor por defecto. Si ejecutamos la orden `git commit` y no añadimos un mensaje, nos abrirá VSCode para escribirlo y esperará a que lo cerremos para continuar.
 
 ### 5. Configurar SSH
 
 1. Configurar claves públicas en local
-```
-$ ssh-keygen -t rsa -C "your_email@example.com"
+```bash
+ssh-keygen -t rsa -C "your_email@example.com"
 ```
 
 2. Copiar a portapapeles:
-```
+```bash
 clip < ~/.ssh/id_rsa.pub
 ```
 (comando en mac)
-``` 
+``` bash
 pbcopy < ~/.ssh/id_rsa.pub
 ```
 
