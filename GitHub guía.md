@@ -43,7 +43,7 @@ La segunda instrucción establece VSCode como nuestro editor por defecto. Si eje
 ssh-keygen -t rsa -C "your_email@example.com"
 ```
 
-2. Copiar a portapapeles:
+2. Usar el siguiente comando en bash para copiar al portapapeles el contenido de la llave SSH:
 ```bash
 clip < ~/.ssh/id_rsa.pub
 ```
