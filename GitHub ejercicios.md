@@ -79,3 +79,12 @@ Editar el Archivo README:
 - **Tutoriales en Línea:** Hay muchos tutoriales en línea y en YouTube que pueden proporcionarte ejemplos prácticos.
 
 Practicando estos ejercicios básicos, te familiarizarás con las operaciones fundamentales de Git. A medida que te sientas cómodo, puedes explorar características más avanzadas. ¡Buena suerte!
+
+## Ejercicio básico 2:
+1. Crea un repositorio en GitHub con el nombre "endes-t2-ej-basico-2" con un archivo README.md
+2. Clona el repositorio a tu dispositivo.
+3. Añade dos lineas a tu archivo readme.md
+4. Haz un commit.
+5. Borra una de las lineas y añade tres al archivo readme.md
+6. Haz un nuevo commit
+7. Sincroniza tus cambios con el repositorio en remoto en GitHub
