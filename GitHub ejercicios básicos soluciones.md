@@ -41,3 +41,49 @@ git diff
 git add indice.txt
 git commit -m "Añadido capítulo 3 sobre gestión de ramas"
 ```
+
+## Ejercicios de manejo del historial de cambios
+```
+git log
+mkdir capitulos
+cd capitulos
+touch capitulo1.txt
+```
+añadir contenido
+```
+git add .
+git commit -m "Añadido capítulo 1."
+git log
+```
+
+### Ejercicio 2
+```
+touch capitulo2.txt
+```
+Añadir contenido
+```
+git add .
+git commit -m "Añadido capítulo 2."
+git diff HEAD~2..HEAD
+```
+
+### Ejercicio 3
+```
+touch capitulo3.txt
+```
+Añadir contenido
+```
+git add .
+git commit -m "Añadido capítulo 3."
+git log
+git diff &lt;codigo hash de la primera version>..HEAD
+```
+
+### Ejercicio 4
+Añadir contenido
+```
+git add .
+git commit -m "Añadido capítulo 5 al índice."
+git annotate indice.txt
+```
+
